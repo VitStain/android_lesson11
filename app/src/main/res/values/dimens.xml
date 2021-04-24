@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop">30dp</dimen>
+    <dimen name="textSize">25sp</dimen>
+    <dimen name="textSize_s">8dp</dimen>
+    <dimen name="padding_recyclerview_element">10dp</dimen>
+    <dimen name="textsize_recyclerview_element">25sp</dimen>
+    <dimen name="textsize_date_recyclerview_element">15sp</dimen>
+    <dimen name="small_padding_recyclerview_element">5dp</dimen>
+    <dimen name="card_corner_radius">15dp</dimen>
+    <dimen name="card_elevation">50dp</dimen>
+    <dimen name="margin_start_end">30dp</dimen>
+</resources>

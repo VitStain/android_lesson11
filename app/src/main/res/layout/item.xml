@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/common4_wp_mp"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <LinearLayout
+        android:id="@+id/element_of_recycler_view"
+        style="@style/common4_wp_mp"
+        android:orientation="vertical"
+        android:textSize="@dimen/textsize_recyclerview_element"
+        tools:text="@string/item">
+
+        <TextView
+            android:id="@+id/first_tv_of_item"
+            style="@style/common4_wp_mp"
+            android:paddingStart="@dimen/padding_recyclerview_element"
+            android:paddingEnd="@dimen/padding_recyclerview_element"
+            android:textSize="@dimen/textsize_recyclerview_element"
+            tools:text="@string/item" />
+
+        <TextView
+            android:id="@+id/second_tv_of_item"
+            style="@style/common4_wp_mp"
+            android:paddingStart="@dimen/padding_recyclerview_element"
+            android:paddingEnd="@dimen/padding_recyclerview_element"
+            android:paddingBottom="@dimen/small_padding_recyclerview_element"
+            android:textSize="@dimen/textsize_date_recyclerview_element"
+            tools:text="@string/date_of_item" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
