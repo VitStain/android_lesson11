@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/common2_mp"
+    android:background="@drawable/light"
+    tools:context=".ui.ListOfNoteBlankFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notes_recycler_view"
+        style="@style/common4_wp_mp"
+        tools:listitem="@layout/item" />
+</FrameLayout>

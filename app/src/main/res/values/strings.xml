@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Making_Notes</string>
+    <string name="one_note_title">Заметка о Жизни</string>
+    <string name="one_note_content">Наполнить Смыслом</string>
+    <string name="two_note_title">Заметка о Добре</string>
+    <string name="two_note_content">Наполнить Делами</string>
+    <string name="three_note_title">Заметка о Мире</string>
+    <string name="three_note_content">Наполнить (^_^) Счастьем</string>
+    <string name="title_note">Название заметки</string>
+    <string name="content_note">Содержание заметки</string>
+    <string name="about">О приложении</string>
+    <string name="settings">Настройки</string>
+    <string name="example">geekbrains@mail.ru</string>
+    <string name="icon_android">Icon android</string>
+    <string name="drawer_open">Открыть навигацию</string>
+    <string name="drawer_close">Закрыть навигацию</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_sort">Сортировать</string>
+    <string name="menu_send">Отправить</string>
+    <string name="menu_add_photo">Добавить фото</string>
+    <string name="four_note_title">Вдохновение</string>
+    <string name="four_note_content">Новый Мир возможностей</string>
+    <string name="five_note_title">Творчество</string>
+    <string name="five_note_content">Высвобождение внутренних сил</string>
+    <string name="item">Список RecyclerView для item</string>
+    <string name="date_of_item">date of item</string>
+    <string name="menu_add_note">Добавить заметку</string>
+    <string name="menu_delete_note">Удалить заметку</string>
+    <string name="n_main">Главное</string>
+    <string name="continue_">Продолжить</string>
+    <string name="exit">Выйти</string>
+    <string name="edit_title_hint">Заглавие заметки</string>
+    <string name="edit_description_hint">Описание заметки</string>
+    <string name="delete_note_dialog_button_no">Нет</string>
+    <string name="confirm_delete_button">Да</string>
+    <string name="in_btn">Войти</string>
+</resources>

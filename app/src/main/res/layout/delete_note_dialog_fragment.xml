@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/common3_wp"
+    android:background="@color/teal_200"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirm_delete_note_dialog_btn"
+        style="@style/common3_wp"
+        android:text="@string/confirm_delete_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/no_delete_note_dialog_btn"
+        style="@style/common3_wp"
+        android:text="@string/delete_note_dialog_button_no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
+
+</LinearLayout>
